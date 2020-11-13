@@ -1,1 +1,3 @@
-alert("test")
+import _ from 'lodash';
+
+
