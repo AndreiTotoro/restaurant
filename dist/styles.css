@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: baseline;
     background-color: black;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
 }
 
 .navbar h1 {
@@ -32,7 +32,7 @@
     border-bottom: solid #4ac79b;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .navbar{
         display: block;
     }
