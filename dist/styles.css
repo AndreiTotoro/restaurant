@@ -84,12 +84,12 @@
     border-radius: 0.2rem;
     display: inline-block;
     margin-top: 12rem;
-    margin-left: 7rem;
+    padding-left: 7rem;
     width: fit-content;
     background-color: #50C878;
     padding-right: 15rem;
-    padding-left: 1rem;
-    border: white solid;
+    border: white 0.5rem solid;
+    border-left: none !important;
 }
 
 @media only screen and (max-width: 1100px) {
