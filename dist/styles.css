@@ -30,6 +30,11 @@
     color: #cfcfcf;
 }
 
+.navbar ul:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
 .current{
     color: white !important;
     border-bottom: solid #4ac79b;
@@ -80,7 +85,6 @@
     display: inline-block;
     margin-top: 12rem;
     margin-left: 7rem;
-    background-color: rgba(0, 0, 0, 0.15);
     width: fit-content;
     background-color: #50C878;
     padding-right: 15rem;
