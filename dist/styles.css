@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -11,7 +12,7 @@
 .navbar h1 {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 3rem;
-    color: wheat;
+    color: white;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -47,26 +48,45 @@
 .main h1{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 4rem;
-    padding-top: 12rem;
-    padding-left: 10rem;
-    color: black;
+    color: white;
+    display: block;
 }
 
 .food{
-    font-size: 7rem;
-    color: white;
-    border-bottom: solid white;
+    font-size: 10rem;
+    color: black;
+    color: black;
 }
 
 .orderButton{
     font-family: 'Nanum Gothic', sans-serif;
     align-self: flex-start;
-    margin-left: 10rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #50C878;
+    border: white solid ;
+}
 
-    border-radius: 1rem;
-    border: none;
+.orderButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #50C878;
+}
+
+.boxy{
+    border-radius: 0.2rem;
+    display: inline-block;
+    margin-top: 12rem;
+    margin-left: 7rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    background-color: #50C878;
+    padding-right: 15rem;
+    padding-left: 1rem;
+    border: white solid;
 }
 
 @media only screen and (max-width: 1100px) {
