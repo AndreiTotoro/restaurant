@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    padding-bottom: 0.5rem;
+}
+
+.navbar h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    display: flex
+}
+
+.navbar ul{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #cfcfcf;
+}
+
+.navbar ul:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.current{
+    color: white !important;
+    border-bottom: solid #4ac79b;
+}

@@ -1,0 +1,15 @@
+
+.footerSection{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #50C878;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.footerSection a{
+    padding-left: 0.5em;
+    text-decoration: none;
+    color: white;
+}

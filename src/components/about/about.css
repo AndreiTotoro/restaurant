@@ -1,0 +1,29 @@
+.aboutUsSection{
+    background-color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    padding: 3rem;
+    display: flex;
+}
+
+.aboutUsSection h1{
+    color: black;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.aboutUsSection p{
+    font-size: 2rem;
+    width: 50rem;
+    color: #50C878;
+}
+
+
+.aboutUsCard{   
+    border-radius: 0.2rem;
+    background-color: white;
+    width: fit-content;
+    padding: 3rem;
+    border: solid #50C878 0.5rem;
+    padding-right: 25rem;
+}

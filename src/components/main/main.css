@@ -1,0 +1,53 @@
+
+.main{
+    background-image: url(pizza.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondaryText{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 4rem;
+    color: white;
+    display: block;
+}
+
+.primaryText{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10rem;
+    color: black;
+}
+
+.orderButton{
+    font-family: 'Nanum Gothic', sans-serif;
+    align-self: flex-start;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #50C878;
+    border: white solid ;
+}
+
+.orderButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #50C878;
+}
+
+.mainCard{
+    border-radius: 0.2rem;
+    display: inline-block;
+    margin-top: 12rem;
+    padding-left: 7rem;
+    width: fit-content;
+    background-color: #50C878;
+    padding-right: 15rem;
+    border: white 0.5rem solid;
+    border-left: none !important;
+}
