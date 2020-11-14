@@ -20,11 +20,12 @@
     display: flex
 }
 
-.navbar ul{
+.links{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 2rem;
     padding: 1rem;
     color: #cfcfcf;
+    text-decoration: none;
 }
 
 .navbar ul:hover{

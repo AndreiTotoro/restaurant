@@ -37,7 +37,12 @@
 .orderButton:hover{
     cursor: pointer;
     background-color: white;
-    color: #50C878;
+    color: #50C878!important;
+}
+
+.orderButton a{
+    text-decoration: none;
+    color: black;
 }
 
 .mainCard{

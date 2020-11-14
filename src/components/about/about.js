@@ -4,6 +4,7 @@ import {content} from "../page-load/page-load"
 const about = () => {
     const aboutUsSection = document.createElement('div')
     aboutUsSection.classList.add("aboutUsSection")
+    aboutUsSection.setAttribute('id', 'aboutSection')
     content.appendChild(aboutUsSection)
 
     const aboutUsCard = document.createElement('div')

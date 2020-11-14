@@ -1,0 +1,66 @@
+
+
+.menuSectionTitle{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.menuSection{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    padding: 8rem;
+    padding-bottom: 11rem;
+}
+
+.menuCard{
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    border: solid #50C878 1.5rem;
+    width: 40vw;
+    height: 80vh;
+}
+
+.menuButton{
+        font-family: 'Nanum Gothic', sans-serif;
+        background-color: #50C878;
+        font-size: 1.2rem;
+        border: none;
+}
+
+.menuButton:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.currentButton{
+    color: white;
+}
+
+.menuButtons{
+    display: flex;
+    justify-content: space-around;
+    background-color: #50C878;
+    padding-bottom: 1rem;
+}
+
+.menuTitle{
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3rem;
+}
+
+.menuItem{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 2rem;
+    width: 15rem;
+    padding-left: 3rem;
+}

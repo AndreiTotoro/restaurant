@@ -22,9 +22,13 @@ const main = () =>{
 
     const orderButton = document.createElement('button')
     orderButton.classList.add('orderButton')
-    orderButton.textContent = "Order Now!"
     mainCard.appendChild(orderButton)
     
+    const orderButtonLink = document.createElement('a')
+    orderButtonLink.href = "#menuSection"
+    orderButtonLink.textContent = "Order Now!"
+    orderButton.appendChild(orderButtonLink)
+
 }
 
 export {main}
