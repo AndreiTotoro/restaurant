@@ -24,6 +24,7 @@ const main = () =>{
     orderButton.classList.add('orderButton')
     orderButton.textContent = "Order Now!"
     mainCard.appendChild(orderButton)
+    
 }
 
 export {main}
